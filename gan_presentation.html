@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GaN Technology Overview</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #4a90e2;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 40px;
+        }
+        
+        .slide {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 2px solid #4a90e2;
+        }
+        
+        .slide h2 {
+            color: #4a90e2;
+            margin-bottom: 20px;
+        }
+        
+        .visualization {
+            background-color: #0f0f0f;
+            border-radius: 10px;
+            padding: 40px;
+            margin: 20px 0;
+            text-align: center;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .crystal-structure {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .atom {
+            text-align: center;
+        }
+        
+        .atom-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            margin: 0 auto 10px;
+        }
+        
+        .ga-atom {
+            background-color: #4a90e2;
+        }
+        
+        .n-atom {
+            background-color: #e24a90;
+        }
+        
+        .applications-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .app-box {
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .performance-bars {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .metric {
+            margin: 20px 0;
+        }
+        
+        .metric-label {
+            margin-bottom: 10px;
+        }
+        
+        .bar-container {
+            background-color: #333;
+            height: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        
+        .bar {
+            height: 100%;
+            border-radius: 15px;
+            transition: width 1s ease;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .info-card {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            padding: 25px;
+            border: 1px solid #333;
+        }
+        
+        .info-card h3 {
+            color: #4a90e2;
+            margin-bottom: 15px;
+        }
+        
+        .info-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .info-card li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .info-card li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #4a90e2;
+        }
+        
+        .nav-buttons {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #357abd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔬 GaN Technology Overview</h1>
+        <p class="subtitle">AI-Generated Presentation from your PDF</p>
+        
+        <div class="slide">
+            <h2>1. Introduction to GaN Technology</h2>
+            <p>Gallium Nitride (GaN) is a wide bandgap semiconductor material that's revolutionizing high-frequency and high-power electronics. Its unique crystal structure enables superior performance compared to traditional silicon.</p>
+            
+            <div class="visualization">
+                <div>
+                    <h3 style="color: #4a90e2; margin-bottom: 30px;">GaN Crystal Structure</h3>
+                    <div class="crystal-structure">
+                        <div class="atom">
+                            <div class="atom-circle ga-atom">Ga</div>
+                            <p>Gallium Atoms</p>
+                        </div>
+                        <div class="atom">
+                            <div class="atom-circle n-atom">N</div>
+                            <p>Nitrogen Atoms</p>
+                        </div>
+                    </div>
+                    <p style="margin-top: 30px; color: #888;">Hexagonal Wurtzite Crystal Structure</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h2>2. Applications of GaN Technology</h2>
+            <p>GaN's superior properties make it ideal for a wide range of applications, from 5G communications to electric vehicles. Its high electron mobility and power efficiency are transforming multiple industries.</p>
+            
+            <div class="visualization">
+                <div style="width: 100%;">
+                    <h3 style="color: #4a90e2; margin-bottom: 30px;">Key Applications</h3>
+                    <div class="applications-grid">
+                        <div class="app-box" style="background-color: #4a90e2;">5G Networks</div>
+                        <div class="app-box" style="background-color: #e24a90;">Electric Vehicles</div>
+                        <div class="app-box" style="background-color: #90e24a;">Power Electronics</div>
+                        <div class="app-box" style="background-color: #e2904a;">RF Amplifiers</div>
+                        <div class="app-box" style="background-color: #904ae2;">Solar Inverters</div>
+                        <div class="app-box" style="background-color: #4ae290;">Radar Systems</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h2>3. Performance Comparison</h2>
+            <p>When compared to traditional semiconductor materials, GaN demonstrates superior performance in key metrics.</p>
+            
+            <div class="visualization">
+                <div style="width: 100%;">
+                    <h3 style="color: #4a90e2; margin-bottom: 30px;">GaN Performance Advantages</h3>
+                    <div class="performance-bars">
+                        <div class="metric">
+                            <div class="metric-label">Breakdown Field Strength</div>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 100%; background-color: #4a90e2;"></div>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Electron Mobility</div>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 85%; background-color: #e24a90;"></div>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Thermal Conductivity</div>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 75%; background-color: #90e24a;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 30px; color: #888;">Compared to Si, GaAs, and SiC semiconductors</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>📊 Key Properties</h3>
+                <ul>
+                    <li>Wide bandgap (3.4 eV)</li>
+                    <li>High electron mobility</li>
+                    <li>High breakdown voltage</li>
+                    <li>Excellent thermal stability</li>
+                    <li>High frequency operation</li>
+                </ul>
+            </div>
+            
+            <div class="info-card">
+                <h3>🚀 Applications</h3>
+                <ul>
+                    <li>5G base stations</li>
+                    <li>Electric vehicle chargers</li>
+                    <li>Data center power supplies</li>
+                    <li>Satellite communications</li>
+                    <li>Renewable energy systems</li>
+                </ul>
+            </div>
+            
+            <div class="info-card">
+                <h3>💡 Advantages</h3>
+                <ul>
+                    <li>Higher efficiency</li>
+                    <li>Smaller form factor</li>
+                    <li>Reduced cooling requirements</li>
+                    <li>Faster switching speeds</li>
+                    <li>Lower system costs</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="nav-buttons">
+            <button onclick="alert('This is a demo presentation of GaN technology generated from your PDF!')">About This Presentation</button>
+        </div>
+    </div>
+</body>
+</html>
