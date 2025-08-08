@@ -1,0 +1,39 @@
+GaN VIDEO FILES - DOWNLOAD GUIDE
+================================
+
+FILES CREATED:
+-------------
+1. gan_presentation.html (8KB) - Complete web presentation
+2. gan_demo.gif (54KB) - Animated GIF video
+3. demo_frames/frame_000.png (106KB) - Crystal structure
+4. demo_frames/frame_001.png (98KB) - Applications diagram
+5. demo_frames/frame_002.png (48KB) - Performance chart
+
+DOWNLOAD INSTRUCTIONS:
+---------------------
+Option 1: Use your IDE's file explorer
+- Find the files in the file tree
+- Right-click and select "Download"
+
+Option 2: If using VS Code or similar:
+- Click on the file in the explorer
+- Press Ctrl+Shift+P (or Cmd+Shift+P on Mac)
+- Type "Download" and select "Download file"
+
+Option 3: Create a zip archive:
+Run this command in terminal:
+zip -r gan_files.zip gan_presentation.html gan_demo.gif demo_frames/
+
+WHAT TO DO AFTER DOWNLOADING:
+-----------------------------
+1. Save gan_presentation.html to your computer
+2. Double-click it to open in your web browser
+3. You'll see the complete GaN technology presentation
+
+The presentation includes:
+- Introduction with crystal structure
+- Applications across industries
+- Performance comparisons
+- Key properties and advantages
+
+All content is embedded, so the HTML file works offline!
