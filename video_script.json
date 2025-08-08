@@ -1,0 +1,79 @@
+{
+  "title": "GaN Technology: A Comprehensive Overview",
+  "total_duration": 51,
+  "scene_count": 9,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "title": "Introduction to GaN Technology",
+      "narration": "Welcome to our comprehensive overview of Gallium Nitride, or GaN technology. Today, we'll explore how GaN High Electron Mobility Transistors, or HEMTs, are revolutionizing high-frequency and high-power electronics.",
+      "duration": 8,
+      "image_prompt": "A futuristic semiconductor chip with glowing blue circuits, representing GaN technology, modern tech aesthetic",
+      "character_action": "greeting"
+    },
+    {
+      "scene_id": 2,
+      "title": "reliability concerns, challenges, and multifaceted applications",
+      "narration": "Arnab Talukdera,b , Mohiminur Rahman Iftya, Abdullah Al Fahada,b,* aDepartment of Electrical and Electronic Engineering, Khulna University of Engineering & Technology, Khulna, Bangladesh bDepartment of Electrical and Electronic Engineering, Northern University of Business and Technology, Khulna, Ban",
+      "duration": 5,
+      "image_prompt": "Collage of modern electronics: smartphones, 5G towers, electric vehicles, solar panels, all highlighting GaN components",
+      "character_action": "explaining"
+    },
+    {
+      "scene_id": 3,
+      "title": "Article Info",
+      "narration": "Keywords: GaN HEMT Current collapse Enhancement-mode Reliability Biosensor BreakdownABSTRACT The emerging need for high-frequency, high-power electronics and biosensors necessitates the demand for high electron mobility transistors (HEMTs) that outperform the mainstream silicon and other direct band",
+      "duration": 5,
+      "image_prompt": "Medical biosensor device with GaN chip, showing biological molecule detection, clean medical tech aesthetic",
+      "character_action": "explaining"
+    },
+    {
+      "scene_id": 4,
+      "title": "structures having superior material properties, wide band-gap, higher",
+      "narration": "voltage, current, frequency and temperature withstand due to the high electric field strength of the material combined with the high mobility and electron density of the two-dimensional electron gas (2DEG) formed at the heterointerface between the channel and barrier layers. Because of having a stro",
+      "duration": 5,
+      "image_prompt": "3D visualization of GaN HEMT structure showing layers: substrate, buffer, channel, barrier, with electron flow animation",
+      "character_action": "explaining"
+    },
+    {
+      "scene_id": 5,
+      "title": "RF applications (e.g., 5 G applications) through minimization of power",
+      "narration": "loss & improved device stability, normally-off (Enhancement mode) transistors are preferred. Different approaches have already been pro- posed to transform a depletion-mode HEMT into an enhancement-mode HEMT. These approaches include recessed-gate structure , fluorine ions implantation , GaN (p-GaN)",
+      "duration": 5,
+      "image_prompt": "Collage of modern electronics: smartphones, 5G towers, electric vehicles, solar panels, all highlighting GaN components",
+      "character_action": "explaining"
+    },
+    {
+      "scene_id": 6,
+      "title": "the properties of the heterostructure, heat treatment, gate design, how",
+      "narration": "the p-GaN is etched, and the doping process. During the etching of p-GaN in HEMT fabrication, it\u2019s important to maintain a high selectivity ratio. If the material is over-etched or under-etched, the device \u2019s per- formance can be seriously affected. This insta- bility is often linked to charge movem",
+      "duration": 5,
+      "image_prompt": "3D visualization of GaN HEMT structure showing layers: substrate, buffer, channel, barrier, with electron flow animation",
+      "character_action": "explaining"
+    },
+    {
+      "scene_id": 7,
+      "title": "In short, even though GaN\u2013HEMTs have widespread applications in",
+      "narration": "power [126,127] & RF devices multiple challenges like epitaxial growth & material quality control , device scaling, thermal management, ohmic contact  quality and the impact of interface and surface states  remain concerning issues which must be resolved for reliable and.",
+      "duration": 5,
+      "image_prompt": "Collage of modern electronics: smartphones, 5G towers, electric vehicles, solar panels, all highlighting GaN components",
+      "character_action": "explaining"
+    },
+    {
+      "scene_id": 8,
+      "title": "effective performance of the devices. Continuous research & studies are",
+      "narration": "ongoing to mitigate the reliability challenges. Surface passivation techniques have been proposed to mitigate current collapse , uni- form distribution of electric fields can be achieved through field plate designs [31,32] that reduce the risk of carrier trapping, but these ad-.",
+      "duration": 5,
+      "image_prompt": "Performance graphs and charts showing GaN advantages, with glowing efficiency metrics, modern data visualization",
+      "character_action": "explaining"
+    },
+    {
+      "scene_id": 9,
+      "title": "Conclusion",
+      "narration": "GaN technology represents a significant advancement in semiconductor technology, enabling faster, more efficient, and more powerful electronic devices. From 5G communications to electric vehicles, GaN HEMTs are shaping the future of electronics.",
+      "duration": 8,
+      "image_prompt": "A montage of modern applications: 5G towers, electric vehicles, renewable energy systems, all powered by GaN technology",
+      "character_action": "concluding"
+    }
+  ]
+}
